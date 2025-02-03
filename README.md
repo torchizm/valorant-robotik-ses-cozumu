@@ -24,6 +24,8 @@
 
 # WireGuard Kurulumu
 
+> Sunucuya bağlanmak için ilk önce PuTTy indirmelisiniz, https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html adresinden x86 veya Arm halini indirebilirsiniz.
+
 > 213.238.172.XXX yazan yeri kendi sunucunuzun IP adresi ile değiştirin
 
 - CMD penceresi açın
@@ -59,6 +61,8 @@ Giriş yaptıktan sonra gelen pencerede `New Client` butonuna basıp istediğini
 
 `Download Configuration` butonuna basıp oluşturduğunuz konfigurasyonu indirin.
 
+- https://www.wireguard.com/install/ adresinden WireGuard istemcisini bilgisayarınıza indirin
+
 ![Import Profile](https://drive.xn--tea.app/apps/files_sharing/publicpreview/M23YrmpxDqK7tjz?file=/import_profile.png&fileId=220&x=1920&y=1080&a=true&etag=4462372d709c2b5a82ebbdbcfd70ffaa)
 
 Bilgisayarınızdan `WireGuard` uygulamasını açıp sol aşağıdan `Import Tunnel` ve ardından `Import tunnel(s) from file` butonuna basın, açılan dosya penceresinde indirdiğiniz `profil.conf` dosyasını seçin.
@@ -66,3 +70,5 @@ Bilgisayarınızdan `WireGuard` uygulamasını açıp sol aşağıdan `Import Tu
 `Activate` butonuna bastıktan sonra Valorant'ı kapatıp açın ve sesiniz düzelecektir.
 
 > Aynı arayüz içerisinden başka arkadaşlarınıza profiller oluşturup onlardada sorunu çözebilirsiniz. Bu sayede arkadaşlarınızla ortak şekilde faturayıda ödeyebilirsiniz fakat unutmayın bu VPN aracılığıyla yasaklı sitelere giriş yapmak tamamen sizin sorumluluğunuzdadır. Yasaklı sitelere girişlerde hakkınızda yasal süreç başlayabilir bu yüzden sadece güvendiğiniz kişilere profil açın.
+
+> Destek için https://discord.gg/aegEbj8G adresinden ulaşım sağlayabilirsiniz
